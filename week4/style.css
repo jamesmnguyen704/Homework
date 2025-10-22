@@ -1,0 +1,143 @@
+/* ===== GLOBAL STYLES ===== */
+/* These styles apply to the entire webpage */
+
+html {
+  scroll-behavior: smooth; /* Creates smooth scrolling when clicking anchor links */
+}
+
+body {
+  font-family: 'Poppins', sans-serif; /* Sets Google Fonts Poppins as main font */
+  margin: 0; /* Removes default browser margin */
+  background: #f7f9fb; /* Light blue-gray background color */
+  color: #222; /* Dark gray text color for good readability */
+  line-height: 1.6; /* Increases line spacing for better readability */
+}
+
+section {
+  margin-bottom: 2.5rem; /* Adds space between each section */
+  padding: 1rem 0; /* Adds vertical padding inside each section */
+  background-color: #ffffff; /* White background for sections */
+  border-radius: 8px; /* Rounds the corners of sections */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+}
+/* ===== HEADER AND NAVIGATION STYLES ===== */
+/* Styles for the top header section and navigation menu */
+
+header {
+  background: #1b1b1b; /* Dark gray background */
+  color: #fff; /* White text color */
+  text-align: center; /* Centers all text in header */
+  padding: 1.5rem 1rem; /* Adds padding around header content */
+}
+
+header h1 {
+  margin: 0; /* Removes default margin from h1 */
+  font-size: 2.5rem; /* Makes main heading large and prominent */
+}
+
+nav ul {
+  list-style: none; /* Removes bullet points from navigation list */
+  padding: 0; /* Removes default padding */
+  margin: 0.5rem 0 0 0; /* Adds small top margin only */
+}
+
+nav ul li {
+  display: inline; /* Makes list items appear horizontally */
+  margin: 0 12px; /* Adds horizontal spacing between nav items */
+}
+
+nav ul li a:hover {
+  color: #00adb5; /* Changes link color to teal when hovering */
+}
+
+nav ul li a {
+  color: #fff; /* White color for navigation links */
+  text-decoration: none; /* Removes underlines from links */
+  font-weight: 500; /* Makes links slightly bold */
+}
+
+/* ===== MAIN CONTENT STYLES ===== */
+/* Styles for the main content area and common elements */
+
+main {
+  max-width: 900px; /* Limits content width for better readability */
+  margin: 2rem auto; /* Centers main content and adds top/bottom margin */
+  padding: 0 1rem; /* Adds horizontal padding for mobile spacing */
+}
+
+h2 {
+  color: #00adb5; /* Teal color for section headings */
+  border-bottom: 2px solid #00adb5; /* Adds teal underline to headings */
+  padding-bottom: 4px; /* Space between text and underline */
+  margin-bottom: 1rem; /* Space below heading */
+  margin-top: 1rem; /* Space above heading */
+}
+
+img {
+  max-width: 300px; /* Limits image width */
+  border-radius: 20%; /* Makes image corners rounded */
+  display: block; /* Makes image a block element */
+  margin: 1rem auto; /* Centers image horizontally with vertical spacing */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adds shadow to image */
+}
+/* ===== SKILLS GRID LAYOUT ===== */
+/* CSS Grid system for organizing skills sections */
+
+.skills-grid {
+  display: grid; /* Enables CSS Grid layout */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Creates responsive columns */
+  /* auto-fit: adjusts number of columns based on screen size */
+  /* minmax(220px, 1fr): minimum 220px width, expands to fill available space */
+  gap: 1.5rem; /* Space between grid items */
+  margin-top: 1rem; /* Space above the grid */
+}
+
+.skills-grid div {
+  background: #fff; /* White background for each skill card */
+  padding: 1rem; /* Internal spacing in each card */
+  border-radius: 8px; /* Rounded corners for cards */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* Subtle shadow for each card */
+}
+
+.skills-grid ul,
+.skills-list {
+  list-style-type: square; /* Changes bullet points to squares */
+  padding-left: 20px; /* Indents list items */
+}
+
+/* ===== BUTTON STYLES ===== */
+/* Styling for interactive buttons */
+
+button{
+  background-color: #00adb5; /* Teal background color */
+  color: white; /* White text */
+  border: none; /* Removes default button border */
+  padding: 0.6rem 1.2rem; /* Vertical and horizontal padding */
+  border-radius: 4px; /* Slightly rounded corners */
+  font-size: 1rem; /* Standard font size */
+  cursor: pointer; /* Changes cursor to pointer when hovering */
+}
+
+button:hover {
+  background-color: #007b83; /* Darker teal when hovering */
+}
+
+/* ===== INTERACTIVE HOVER EFFECTS ===== */
+/* Complex CSS selector for list item hover effects */
+
+main section ul li:hover {
+  /* Targets: list items inside unordered lists inside sections inside main */
+  color: #007b83; /* Changes text color to dark teal on hover */
+  cursor: pointer; /* Changes cursor to pointer to indicate interactivity */
+}
+
+/* ===== FOOTER STYLES ===== */
+/* Styling for the bottom footer section */
+
+footer {
+  background: #1b1b1b; /* Dark gray background (matches header) */
+  color: #aaa; /* Light gray text color */
+  text-align: center; /* Centers footer text */
+  padding: 1rem; /* Adds padding around footer content */
+  margin-top: 3rem; /* Adds large top margin to separate from main content */
+}

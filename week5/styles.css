@@ -1,0 +1,37 @@
+html {
+  background-color: antiquewhite;
+}
+
+body {
+  text-align: center;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+  height: 100%;
+}
+
+div {
+  border: 2px solid burlywood;
+  margin: 10px;
+}
+
+#introPic {
+  float: left;
+}
+
+#about-me {
+  float: right;
+}
+
+#about-me>li {
+  padding: 2px;
+}
+
+#pro {
+  width: auto;
+}
