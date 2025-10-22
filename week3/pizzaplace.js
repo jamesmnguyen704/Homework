@@ -85,7 +85,11 @@ greetCustomer(); // Call greetCustomer to welcome the customer and display toppi
 let order = getPizzaOrder("large", "thick", "chicken", "bacon"); // Call getPizzaOrder with size, crust, and toppings
 let cookedPizza = preparePizza(order); // Call preparePizza with the order array
 servePizza(cookedPizza); // Call servePizza with the cooked pizza object
+
+
 // 7 Add, commit, and push your JS file to your GitHub repo.
+
+
 // 8 Send your TA a link to your GitHub Homework repo when finished.
 
 // NOTE: Please refrain from utilizing the Array.toString() method or inadvertently employing string coercion when constructing template literals. The primary objective of this exercise is to provide you with an opportunity to hone your skills in array traversal. Focus on utilizing while, for, and for...of loops to transform the array of toppings into the required output strings.
