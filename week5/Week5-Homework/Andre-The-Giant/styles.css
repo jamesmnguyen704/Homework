@@ -1,0 +1,99 @@
+html {
+  background-color: antiquewhite;
+}
+
+body {
+  text-align: center;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+  height: 100%;
+  max-width: 100%
+}
+
+div {
+  border: 2px solid burlywood;
+  margin: 10px;
+  padding: 10px;
+}
+
+#introPic {
+  float: left;
+  width: 40%;
+}
+
+#about-me {
+  float: right;
+  width: 50%;
+  list-style-type: none;
+  padding: 0;
+}
+
+#about-me>li {
+  padding: 2px;
+  text-align: left;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#pro {
+  width: auto;
+}
+
+/* Mobile for Iphone 6/7/8 */
+@media only screen and (max-width: 400px) {
+  body {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  /* stack image and list vertically */
+  #introPic,
+  #about-me {
+    float: none;
+    width: 100%;
+    display: block;
+  }
+  #introPic {
+    margin: 0 auto;
+    height: auto;
+  }
+  #about-me {
+    text-align: center;
+    margin: 15px 0;
+  }
+  #about-me > li {
+    display: block;
+    margin: 6px 0;
+    padding: 4px 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+  div {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+  }
+  a {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 6px 8px;
+    word-wrap: break-word;
+  }
+}
